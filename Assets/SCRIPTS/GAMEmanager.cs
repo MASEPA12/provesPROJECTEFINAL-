@@ -10,13 +10,13 @@ public class GAMEmanager : MonoBehaviour
     public GameObject panelPAUSE;
 
     //dark mode
-    public Material darkMaodeMaterial;
-    public TextMeshPro txt1;
+    //public Material darkMaodeMaterial;
+    //public TextMeshPro txt1;
 
     private void Start()
     {
-        darkMaodeMaterial.color = Color.white;
-        txt1.fontSharedMaterial.color = Color.white;
+        //darkMaodeMaterial.color = Color.white;
+        //txt1.fontSharedMaterial.color = Color.white;
     }
     public void ChangeSceneBttn(int a)
     {
@@ -28,8 +28,8 @@ public class GAMEmanager : MonoBehaviour
         panelPAUSE.SetActive(toggle);
     }
 
-    public void DarkModeToggle(GameObject panel)
+    /*public void DarkModeToggle(GameObject panel)
     {
         //panel.GetComponent<Image>= Color.white;
-    }
+    }*/
 }
